@@ -1,0 +1,63 @@
+.watch{
+    background-color: #FFA500;
+}
+.bag{
+    background-color: #DA70D6;
+}
+.shoe{
+    background-color: #0000FF;
+}
+.my-carousel{
+    background-color: #FCEAE8;
+}
+.my-button{
+    background-image: linear-gradient(0deg, rgba(255,30,118,1) 0%, rgba(255,72,145,1) 100%);
+}
+.end{
+    background-color: #FCEAE8;
+}
+.image-1{
+    position: relative;
+    overflow: hidden;
+}
+.top,.bottom,.left,.right{
+    position: absolute;
+    background-color: wheat;
+    transition: transform 0.7s linear;    
+}
+.top, .bottom{
+    width: 100%;
+    height: 5px;
+}
+.left, .right{
+    height: 100%;
+    width: 5px;
+}
+.top{
+    top: 5px;
+    right: 100%;
+}
+.bottom{
+    bottom: 5px;
+    left: 100%;
+}
+.left{
+    left: 5px;
+    top: 100%;
+}
+.right{
+    right: 5px;
+    bottom: 100%;    
+}
+.image-1:hover .top{
+    transform: translateX(100%);
+}
+.image-1:hover .bottom{
+    transform: translateX(-100%);
+}
+.image-1:hover .left{
+    transform: translateY(-100%);
+}
+.image-1:hover .right{
+    transform: translateY(100%);
+}
