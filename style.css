@@ -12,6 +12,15 @@
 }
 .my-button{
     background-image: linear-gradient(0deg, rgba(255,30,118,1) 0%, rgba(255,72,145,1) 100%);
+    box-shadow: 0px 5px 0px gray;
+    position: relative;
+    top: 0px;
+    border: none;
+}
+.my-button:active{
+    top: 3px;
+    
+    box-shadow: 0px 3px 0px gray;
 }
 .end{
     background-color: #FCEAE8;
